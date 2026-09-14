@@ -14,7 +14,10 @@ Ahmed Al-Tohamy, Debajyoti Deb, William M. Moe
 Department of Civil and Environmental Engineering, Louisiana State University,
 Baton Rouge, Louisiana, USA
 
-All analysis code in this repository was written by Ahmed Al-Tohamy.
+All analysis code in this repository was written and is maintained by
+Ahmed Al-Tohamy (aaltoh1@lsu.edu). Questions about the code or the
+supplementary tables are best directed here, or raised as a GitHub issue.
+
 Correspondence regarding the study: William M. Moe (moemwil@lsu.edu).
 
 ## Strains and replicons
