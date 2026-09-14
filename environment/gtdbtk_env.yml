@@ -1,0 +1,9 @@
+name: gtdbtk_env
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - gtdbtk
+variables:
+  GTDBTK_DATA_PATH: /ddnB/work/tohamy/databases/gtdbtk_r226

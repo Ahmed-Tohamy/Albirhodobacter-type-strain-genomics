@@ -1,0 +1,13 @@
+name: figures_env
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - pandas
+  - python=3.11
+  - scipy
+  - biopython
+  - numpy
+  - seaborn
+  - matplotlib

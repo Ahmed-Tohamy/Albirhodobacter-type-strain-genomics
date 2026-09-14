@@ -1,0 +1,7 @@
+name: gecco_env
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10

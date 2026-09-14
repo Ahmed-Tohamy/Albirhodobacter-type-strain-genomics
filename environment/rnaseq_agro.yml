@@ -1,0 +1,15 @@
+name: rnaseq_agro
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - multiqc
+  - pigz
+  - subread
+  - cutadapt
+  - samtools
+  - trim-galore
+  - fastqc
+  - hisat2
+  - bedtools

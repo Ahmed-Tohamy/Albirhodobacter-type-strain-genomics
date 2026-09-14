@@ -1,0 +1,13 @@
+name: r_deseq2_env_2
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - r-ggplot2
+  - r-tidyverse
+  - r-base=4.2.0
+  - r-pheatmap
+  - r-readr
+  - r-data.table
+  - r-optparse

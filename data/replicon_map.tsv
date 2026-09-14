@@ -1,0 +1,8 @@
+strain_code	species	type_strain	contig_id	replicon	length_bp	gc_percent
+J17J1	Albirhodobacter marinus	JCM 17680T	cluster_001_consensus	Chromosome	2873276	61.56
+J17J1	Albirhodobacter marinus	JCM 17680T	cluster_002_consensus	Chromid	739025	61.06
+J17J1	Albirhodobacter marinus	JCM 17680T	cluster_005_flye_direct	Plasmid 1	167344	61.71
+J31B2	Albirhodobacter confluentis	JCM 31536T	cluster_001_consensus	Chromosome	3230926	61.12
+J31B2	Albirhodobacter confluentis	JCM 31536T	cluster_002_consensus	Chromid	1050841	60.42
+J31B2	Albirhodobacter confluentis	JCM 31536T	cluster_005_consensus	Plasmid 1	194491	57.11
+J31B2	Albirhodobacter confluentis	JCM 31536T	cluster_006_consensus	Plasmid 2	98181	59.09

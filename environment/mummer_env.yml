@@ -1,0 +1,8 @@
+name: mummer_env
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - mummer4
+  - gnuplot

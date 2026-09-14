@@ -1,0 +1,8 @@
+*.bam
+*.bai
+*.fastq
+*.fastq.gz
+*.sam
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store

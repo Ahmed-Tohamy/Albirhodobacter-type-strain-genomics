@@ -1,0 +1,13 @@
+name: codon_env
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - biopython
+  - codonw
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - numpy

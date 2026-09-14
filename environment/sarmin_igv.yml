@@ -1,0 +1,10 @@
+name: sarmin_igv
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - samtools
+  - hisat2
+  - cutadapt
+  - trim-galore

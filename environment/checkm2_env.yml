@@ -1,0 +1,9 @@
+name: checkm2_env
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - checkm2[version='>=1.0,<1.1']
+  - pip

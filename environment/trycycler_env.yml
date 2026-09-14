@@ -1,0 +1,17 @@
+name: trycycler_env
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - mash
+  - r-base
+  - r-ape
+  - muscle
+  - numpy
+  - scipy
+  - minimap2
+  - edlib
+  - r-matrix
+  - r-igraph

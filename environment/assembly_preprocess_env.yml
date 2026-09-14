@@ -1,0 +1,25 @@
+name: assembly_preprocess_env
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - filtlong
+  - fastp
+  - porechop_abi
+  - jellyfish
+  - r-minpack.lm
+  - r-argparse
+  - git
+  - r-base
+  - kraken2
+  - bracken
+  - flye
+  - raven
+  - minipolish
+  - minimap2
+  - miniasm
+  - wtdbg
+  - canu
+  - bwa
+  - polypolish

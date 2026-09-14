@@ -1,0 +1,14 @@
+name: mdanalysis
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - mdanalysistests
+  - mdanalysis
+  - matplotlib
+  - numpy
+  - scikit-learn
+  - mdtraj
+  - scipy

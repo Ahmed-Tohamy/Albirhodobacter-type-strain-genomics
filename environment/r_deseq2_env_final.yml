@@ -1,0 +1,14 @@
+name: r_deseq2_env_final
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - r-data.table
+  - r-tidyverse
+  - r-pheatmap
+  - bioconductor-deseq2
+  - r-optparse
+  - r-readr
+  - r-base=4.2.0
+  - bioconductor-apeglm

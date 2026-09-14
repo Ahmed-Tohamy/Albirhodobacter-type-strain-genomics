@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: If you use this code or these data, please cite the associated article.
+title: Analysis code for the Albirhodobacter type-strain comparative genomics study
+authors:
+  - family-names: Al-Tohamy
+    given-names: Ahmed
+    affiliation: Department of Civil and Environmental Engineering, Louisiana State University
+  - family-names: Deb
+    given-names: Debajyoti
+    affiliation: Department of Civil and Environmental Engineering, Louisiana State University
+  - family-names: Moe
+    given-names: William M.
+    affiliation: Department of Civil and Environmental Engineering, Louisiana State University
+    orcid: https://orcid.org/0000-0002-9286-8004
+license: MIT
+repository-code: https://github.com/Ahmed-Tohamy/Albirhodobacter-type-strain-genomics

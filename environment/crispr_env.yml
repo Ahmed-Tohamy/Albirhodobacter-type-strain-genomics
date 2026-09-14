@@ -1,0 +1,7 @@
+name: crispr_env
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - minced

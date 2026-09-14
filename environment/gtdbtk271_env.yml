@@ -1,0 +1,7 @@
+name: gtdbtk271_env
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - gtdbtk[version='>=2.7,<2.8']

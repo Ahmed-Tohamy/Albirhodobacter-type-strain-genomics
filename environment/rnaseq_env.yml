@@ -1,0 +1,9 @@
+name: rnaseq_env
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - fastqc
+  - multiqc
+  - mamba
