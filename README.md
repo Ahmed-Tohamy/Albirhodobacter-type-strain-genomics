@@ -40,7 +40,7 @@ on) are mapped to the replicon names used in the paper in
     scripts/jobs/       Scheduler submission scripts, one per analysis step
     figures/            Figure generation code
     data/               Replicon map and per-base coverage for the Plasmid 1 validation
-    supplementary/      Additional file 1 (47 supplementary tables)
+    supplementary/      Additional file 1 (48 supplementary tables)
     environment/        Conda environment specifications
 
 ## Reproducing the analysis
@@ -84,10 +84,10 @@ BioResource Research Center.
 ## Supplementary tables
 
 [`supplementary/Additional_file_1.xlsx`](supplementary/Additional_file_1.xlsx)
-contains 47 tables covering read quality control, assembly and annotation
+contains 48 tables covering read quality control, assembly and annotation
 statistics, replicon validation, taxonomic placement, whole-genome and
 per-replicon relatedness, comparative genomics, functional annotation, and the
-complete feature annotation and predicted sequences for both genomes, and the replicon assignment of tRNAs and aminoacyl-tRNA synthetases (Table S47). The first
+complete feature annotation and predicted sequences for both genomes, and the replicon assignment of tRNAs and aminoacyl-tRNA synthetases (Table S47), and the comparison of each plasmid with the whole genome of the other species (Table S48). The first
 sheet lists every table with its source and method.
 
 ## Citation
