@@ -36,11 +36,11 @@ on) are mapped to the replicon names used in the paper in
 
 ## Repository layout
 
-    scripts/pipeline/   End-to-end pipeline drivers
+    scripts/pipeline/   End-to-end pipeline drivers and verification scripts
     scripts/jobs/       Scheduler submission scripts, one per analysis step
     figures/            Figure generation code
     data/               Replicon map and per-base coverage for the Plasmid 1 validation
-    supplementary/      Additional file 1 (46 supplementary tables)
+    supplementary/      Additional file 1 (47 supplementary tables)
     environment/        Conda environment specifications
 
 ## Reproducing the analysis
@@ -84,10 +84,10 @@ BioResource Research Center.
 ## Supplementary tables
 
 [`supplementary/Additional_file_1.xlsx`](supplementary/Additional_file_1.xlsx)
-contains 46 tables covering read quality control, assembly and annotation
+contains 47 tables covering read quality control, assembly and annotation
 statistics, replicon validation, taxonomic placement, whole-genome and
 per-replicon relatedness, comparative genomics, functional annotation, and the
-complete feature annotation and predicted sequences for both genomes. The first
+complete feature annotation and predicted sequences for both genomes, and the replicon assignment of tRNAs and aminoacyl-tRNA synthetases (Table S47). The first
 sheet lists every table with its source and method.
 
 ## Citation
@@ -105,3 +105,17 @@ Code is released under the MIT Licence. Data files in `data/` and
 Cluster support was provided by the Louisiana Optical Network Initiative.
 Sequencing was performed by CD Genomics. This work was supported by the
 Louisiana Board of Regents Governor's Biotechnology Initiative (grant BOR#015).
+
+## Replicon assignment of core decoding functions
+
+`scripts/pipeline/verify_core_decoding.py` assigns every tRNA gene (by
+anticodon), aminoacyl-tRNA synthetase, and codon count to its replicon of
+origin, and flags any function absent from the chromosome.
+`scripts/pipeline/blast_check_chromid_only.sh` then confirms that each
+flagged function has no unannotated chromosomal copy, by BLASTP of the
+protein against all chromosomal proteins and BLASTN of the tRNA gene
+against the chromosome sequence (BLAST+ v2.16.0).
+
+    export PROJECT_ROOT=/path/to/project
+    python scripts/pipeline/verify_core_decoding.py results/
+    bash scripts/pipeline/blast_check_chromid_only.sh J17J1 results/blast_J17J1
